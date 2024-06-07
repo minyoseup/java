@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA PRACTICE FTB</title>
+</head>
+<body>
+    <script>
+        let word = prompt("What is your secret word?");
+
+        let firstWord = word.charAt(0).toUpperCase()
+
+        function punctuation(word) {
+            return firstWord + word.toLowerCase().slice(1);   
+        }
+        
+        result = punctuation(word);
+
+        console.log(result);
+    </script>
+    
+</body>
+</html>
