@@ -7,17 +7,13 @@
 </head>
 <body>
     <script>
-        let word = prompt("What is your secret word?");
+       let input = parseInt(prompt("Enter desired number big boy!"));
 
-        let firstWord = word.charAt(0).toUpperCase()
-
-        function punctuation(word) {
-            return firstWord + word.toLowerCase().slice(1);   
+       for (let i = 1; i < input; i++) {
+        if (number % 3 == 0) {
+            alert("fizz");
         }
-        
-        result = punctuation(word);
-
-        console.log(result);
+       }
     </script>
     
 </body>
